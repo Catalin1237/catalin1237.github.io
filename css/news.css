@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Grechen+Fuemen&family=Montserrat&display=swap');
+
+.containerIMG{
+    position: relative;
+    max-width: 1250px;
+    max-height: 250px;
+    margin: 10px auto;
+}
+
+.containerIMG img{
+    width: 100%;
+    height: 250px;  
+    border-radius: 0px 0px 20px 20px;
+    object-fit: cover;
+}
+
+.containerIMG .content{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 250px;
+    background-color: black;
+    border-radius: 0px 0px 20px 20px;
+    box-shadow: 5px 5px 5px grey;
+    background: rgb(0, 0, 0); 
+    background: rgba(0, 0, 0, 0.3);
+    color: #f1f1f1;
+}
+
+.text-content{
+    position: absolute;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.meniu-mic{
+    position: absolute;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    top: 62%;
+    left: 49%;
+    transform: translate(-38%, -51%);
+}
+
+.meniu-mic a{
+    text-decoration: none;
+    color: #f1f1f1;
+}
+
+.grid-2{
+    display: grid;
+    grid-template-columns: 500px 700px;
+    grid-column-gap: 30px;
+    grid-row-gap: 10px;
+    width: 1250px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+
+.grid-2 img{
+    width: 500px;
+    height: 400px;
+    margin-top: 10px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.button{
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    border: none;
+    text-align: center;
+    background-color: #004D4F;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-family: 'Montserrat', Arial, sans-serif;
+}
+
+.button:hover{
+    box-shadow: 5px 5px 5px black;
+    background-color: #FBDDB4;
+    color: #5C523C;
+    cursor: pointer;
+}
+
+/* Laptop */
+@media (min-width: 769px) and (max-width: 1024px){
+
+    .containerIMG{
+        max-width: 962px;
+    }
+
+    .grid-2{
+        display: grid;
+        grid-template-columns: 400px 500px;
+        width: 962px;
+    }
+    
+    .grid-2 img{
+        width: 400px;
+        height: 300px;
+    }
+
+}
+
+/* Tableta */
+@media (min-width: 601px) and (max-width: 768px){
+
+    .containerIMG{
+        max-width: 578px;
+    }
+
+    .meniu-mic{
+        top: 62%;
+        left: 48%;
+        transform: translate(-38%, -52%);
+    }
+
+    .grid-2{
+        grid-template-columns: 250px 300px;
+        width: 578px;
+    }
+    
+    .grid-2 img{
+        width: 260px;
+        height: 200px;
+    }
+    
+    .button{
+        width: 100px;
+        height: 30px;
+        font-size: 10px;
+    }
+
+}
+
+/* Telefon */
+@media screen and (max-width: 600px){
+
+    .containerIMG{
+        max-width: 375px;
+    }
+    
+    .text-content{
+        font-size: 30px;
+    }
+    
+    .meniu-mic{
+        font-size: 15px;
+        top: 62%;
+        left: 49%;
+        transform: translate(-38%, -51%);
+    }
+    
+    .grid-2{
+        display: grid;
+        grid-template-columns: 375px;
+        width: 375px;
+    }
+    
+    .grid-2 img{
+        display: flex;
+        width: 300px;
+        height: 200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .button{
+        width: 100px;
+        height: 30px;
+        font-size: 10px;
+    }
+
+}

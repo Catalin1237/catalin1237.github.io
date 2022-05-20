@@ -1,0 +1,191 @@
+.containerIMG{
+    position: relative;
+    max-width: 1250px;
+    max-height: 250px;
+    margin: 10px auto;
+}
+
+.containerIMG img{
+    width: 100%;
+    height: 250px;  
+    border-radius: 0px 0px 20px 20px;
+    object-fit: cover;
+}
+
+.containerIMG .content{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 250px;
+    background-color: black;
+    border-radius: 0px 0px 20px 20px;
+    box-shadow: 5px 5px 5px grey;
+    background: rgb(0, 0, 0); 
+    background: rgba(0, 0, 0, 0.3);
+    color: #f1f1f1;
+}
+
+.text-content{
+    position: absolute;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.meniu-mic{
+    position: absolute;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    top: 62%;
+    left: 49%;
+    transform: translate(-38%, -51%);
+}
+
+.meniu-mic a{
+    text-decoration: none;
+    color: #f1f1f1;
+}
+
+.grid-4-galerie{
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px;
+    grid-column-gap: 10px;
+    width: 1230px;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.grid-4-galerie img{
+    display: flex;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+}
+
+.button-info-suplimentar {
+    display: flex;
+    width: 297px;
+    height: 69px;
+    margin-left: auto;
+    margin-right: auto;
+    text-transform: uppercase;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 10px;
+    background-color: #004D4F;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.button-info-suplimentar :hover{
+    background-color: #FFFFFF;
+    color: black;
+}
+
+#mapLocation{
+    width: 1250px;   
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+/* ****************************************************** */
+
+/* Laptop mic */
+@media (min-width: 769px) and (max-width: 1024px){
+    .containerIMG{
+        max-width: 962px;
+    }
+    
+    .grid-4-galerie{
+        grid-template-columns: 300px 300px 300px;
+        width: 962px;
+        justify-content: center;
+    }
+
+    #mapLocation{
+        width: 962px;   
+        height: 350px;
+    }
+}
+
+/* Tableta */
+@media (min-width: 601px) and (max-width: 768px){
+    .containerIMG{
+        max-width: 578px;
+    }
+
+    .text-content{
+        font-size: 30px;
+    }
+    
+    .meniu-mic{
+        font-size: 15px;
+    }
+    
+    .grid-4-galerie{
+        grid-template-columns: 175px 175px 175px;
+        width: 578px;
+    }
+    
+    .grid-4-galerie img{
+        height: 175px;
+        width: 175px;
+    }
+
+    .button-info-suplimentar {
+        width: 200px;
+        height: 50px;
+    }
+
+    #mapLocation{
+        width: 578px;   
+        height: 300px;
+    }
+}
+
+/* Telefon */
+@media screen and (max-width: 600px){
+
+    .containerIMG{
+        max-width: 375px;
+    }
+
+    .text-content{
+        font-size: 30px;
+    }
+    
+    .meniu-mic{
+        font-size: 15px;
+    }
+
+    .grid-4-galerie{
+        grid-template-columns: 150px 150px;
+        width: 375px;
+    }
+    
+    .grid-4-galerie img{
+        height: 150px;
+        width: 150px;
+    }
+
+    .button-info-suplimentar {
+        width: 150px;
+        height: 40px;
+    }
+
+    #mapLocation{
+        width: 375px;   
+        height: 200px;
+    }
+}

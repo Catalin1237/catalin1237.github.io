@@ -1,0 +1,187 @@
+.containerIMG{
+    position: relative;
+    max-width: 1250px;
+    max-height: 250px;
+    margin: 10px auto;
+
+}
+
+.containerIMG img{
+    width: 100%;
+    height: 250px;  
+    border-radius: 0px 0px 20px 20px;
+    object-fit: cover;
+}
+
+.containerIMG .content{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 250px;
+    background-color: black;
+    border-radius: 0px 0px 20px 20px;
+    box-shadow: 5px 5px 5px grey;
+    background: rgb(0, 0, 0); 
+    background: rgba(0, 0, 0, 0.3);
+    color: #f1f1f1;
+}
+
+.text-content{
+    position: absolute;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.meniu-mic{
+    position: absolute;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    top: 62%;
+    left: 50%;
+    transform: translate(-38%, -50%);
+}
+
+.meniu-mic a{
+    text-decoration: none;
+    color: #f1f1f1;
+}
+/* ****************************************************** */
+
+/* Zona 2 */
+.container-anunt{
+    max-width: 1090px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.grid-4-produse{
+    display: grid;
+    grid-template-columns: 270px 270px 270px 270px;
+    grid-column-gap: 10px;
+}
+
+.box-anunt{
+    width: 250px;
+    height: 300px;
+    background-color: #e6e1e1;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.box-anunt img{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+}
+
+.box-anunt:hover{
+    box-shadow: 5px 5px 5px gray;
+}
+
+/* Laptop */
+@media (min-width: 769px) and (max-width: 1024px){
+    .containerIMG{
+        max-width: 962px;
+        max-height: 250px;
+    }
+    /* ****************************************************** */
+
+    /* Zona 2 */
+    .container-anunt{
+        max-width: 790px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .grid-4-produse{
+        grid-template-columns: 250px 250px 250px;
+    }
+}
+
+/* Tableta */
+@media (min-width: 601px) and (max-width: 768px){
+
+    .containerIMG{
+        max-width: 578px;
+    }
+    
+    .text-content{
+        font-size: 30px;
+    }
+    /* ****************************************************** */
+
+
+    /* Zona 2 */
+    .container-anunt{
+        max-width: 420px;
+    }
+
+    .grid-4-produse{
+        grid-template-columns: 200px 200px;
+        grid-column-gap: 20px;
+    }
+
+    .box-anunt{
+        width: 200px;
+        height: 250px;
+        background-color: #ECEAEA;
+        margin-top: 20px;
+    }
+
+    .box-anunt img{
+        width: 150px;
+        height: 150px;
+    }
+
+    .box-anunt:hover{
+        box-shadow: 5px 5px 5px gray;
+    }
+}
+
+/* Telefon */
+@media screen and (max-width: 600px){
+    .containerIMG{
+        position: relative;
+        max-width: 375px;
+    }
+    
+    .text-content{
+        font-size: 20px;
+    }
+    
+    .meniu-mic{
+        font-size: 15px;
+    }
+    /* ****************************************************** */
+    
+    /* Zona 2 */
+    .container-anunt{
+        max-width: 320px;
+    }
+
+    .grid-4-produse{
+        grid-template-columns: 150px 150px;
+        grid-column-gap: 20px;
+    }
+
+    .box-anunt{
+        width: 150px;
+        height: 200px;
+        margin-top: 20px;
+    }
+
+    .box-anunt img{
+        width: 100px;
+        height: 100px;
+    }
+}

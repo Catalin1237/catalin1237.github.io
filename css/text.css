@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css2?family=Grechen+Fuemen&family=Montserrat&display=swap');
+
+.titlu-64{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-size: 64px;
+    font-weight: bold;
+    color: #5C523C;
+}
+
+.titlu-32{
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    color: #5C523C;
+    margin-left: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.titlu-32-alb{
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-left: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.titluProdus{
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    color: #5C523C;
+    margin-left: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.titlu-30-alb{
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    color: #ffffff;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.text-informativ{
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-size: 18px;
+    font-weight:normal;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.text-informativ-alb{
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+.scurt-info-alb{
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #ffffff;
+    text-align: center;
+}
+
+.info-anunt-gros{
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.info-anunt-subtire{
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-size: 15px;
+    font-weight: lighter;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.shop-mini-menu{
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-size: 24px;
+    font-weight: normal;
+    margin-top: 10px;   
+}
+
+.shop-mini-menu a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.info-produs-20{
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.button-info-suplimentar{
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#zonaInfoBT{
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    color: #000000;
+}
+
+/* ************************************************** */
+
+/* Laptop */
+@media (min-width: 769px) and (max-width: 1024px){
+    .titlu-64{
+        font-size: 54px;
+    }
+
+    .titlu-32{
+        font-size: 30px;
+    }
+    
+    .titlu-32-alb{
+        font-size: 30px;
+    }
+
+    .titlu-30-alb{
+        font-size: 25px;
+    }
+
+    .titluProdus{
+        font-size: 30px;
+    }
+
+    .text-informativ{
+        font-size: 15px;
+    }
+    
+    .text-informativ-alb{
+        font-size: 15px;
+    }
+
+    .scurt-info-alb{
+        font-size: 15px;
+    }
+    
+    .info-produs-20{
+        font-size: 15px;
+    }
+    
+    .button-info-suplimentar{
+        font-size: 18px;
+    }
+    
+    #zonaInfoBT{
+        font-size: 15px;
+    }
+}
+
+/* Tableta */
+@media (min-width: 601px) and (max-width: 768px){
+    
+    .titlu-64{
+        font-size: 40px;
+    }
+    
+    .titlu-32{
+        font-size: 18px;
+    }
+    
+    .titlu-32-alb{
+        font-size: 18px;
+    }
+    
+    .titlu-30-alb{
+        font-size: 15px;
+    }
+
+    .titluProdus{
+        font-size: 30px;
+    }
+    
+    .text-informativ{
+        font-size: 10px;
+    }
+    
+    .text-informativ-alb{
+        font-size: 10px;
+    }
+    
+    .scurt-info-alb{
+        font-size: 10px;
+    }
+
+    .info-anunt-gros{
+        font-size: 18px;
+    }
+
+    .shop-mini-menu{
+        font-size: 20px;
+    }
+
+    .info-produs-20{
+        font-size: 18px;
+    }
+
+    .button-info-suplimentar{
+        font-size: 15px;
+    }
+    
+    #zonaInfoBT{
+        font-size: 15px;
+    }
+    
+}
+
+/* Telefon */
+@media screen and (max-width: 600px){
+    .titlu-64{
+        font-size: 30px;
+        text-align: center;
+    }
+    
+    .titlu-32{
+        font-size: 16px;
+    }
+    
+    .titlu-32-alb{
+        font-size: 16px;
+    }
+    
+    .titlu-30-alb{
+        font-size: 15px;
+    }
+
+    .titluProdus{
+        font-size: 25px;
+    }
+    
+    .text-informativ{
+        font-size: 10px;
+    }
+    
+    .text-informativ-alb{
+        font-size: 10px;
+    }
+    
+    .scurt-info-alb{
+        font-size: 10px;
+    }
+
+    .info-anunt-gros{
+        font-size: 15px;
+    }
+    
+    .info-anunt-subtire{
+        font-size: 10px;
+    }
+
+    .info-produs-20{
+        font-size: 12px;
+    }
+    
+    .shop-mini-menu{
+        font-size: 18px;
+    }
+
+    .button-info-suplimentar{
+        font-size: 10px;
+    }
+    
+    #zonaInfoBT{
+        font-size: 12px;
+    }
+}

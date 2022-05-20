@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+
+    <!-- My css -->
+    <link rel="stylesheet" type="text/css" href="css/navBar.css">
+    <link rel="stylesheet" type="text/css" href="css/galerie.css">
+    <link rel="stylesheet" type="text/css" href="css/text.css">
+
+</head>
+<body>
+
+    <header>
+        <div>
+            <img src="images/nucces-logo-2.3.png" class="logo">
+        </div>
+        
+        <nav class="nav-menu"> 
+            <ul class="nav-links" id="navL"> 
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="shop.html">Shop</a>
+                </li>
+                <li>
+                    <a href="gallery.html"><span  class="active">Gallery</span></a>
+                </li>
+                <li>
+                    <a href="news.html">News</a>
+                </li>
+                <li>
+                    <a href="contacte.html">Contacte</a>
+                </li>
+            </ul>
+            <button class="hamburger" id="ham">
+                <i class="fas fa-bars"></i>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+
+        <br>
+
+        <!-- zona 1 -->
+        <div class="containerIMG">
+            <img src="images/nuciBackground.jpg">
+            <div class="content">
+                <p class="text-content">
+                      Galerie
+                      <br>
+                      <p class="meniu-mic">
+                          <a href="index.html">Home / </a>
+                          <a href="gallery.html">Gallery</a>
+                      </p>
+                </p>
+            </div>
+        </div>
+
+        <!-- zona 2 -->
+        <div class="grid-4-galerie">
+            <div>
+                <img src="images/nuci_galerie.jpeg">
+            </div>
+            <div>
+                <img src="images/nuci_galerie.jpeg">
+            </div>
+            <div>
+                <img src="images/nuci_galerie.jpeg">
+            </div>
+            <div>
+                <img src="images/nuci_galerie.jpeg">
+            </div>
+            
+            <div>
+                <img src="images/nuci_galerie.jpeg">
+            </div>
+            <div>
+                <img src="images/nuci_galerie.jpeg">
+            </div>
+            <div>
+                <img src="images/nuci_galerie.jpeg">
+            </div>
+            <div>
+                <img src="images/nuci_galerie.jpeg">
+            </div>
+        </div>
+
+        <br>
+        <div>
+            <button class="button-info-suplimentar" id="maiMulte">mai multe imagini</button>
+        </div>
+
+        <br>
+        <div id="mapLocation"></div>
+
+    </main>
+
+    <footer>
+        <div class="footer-bar">
+            <img src="images/nucces-logo-1.5.png" class="logoFooter" alt="">
+            <p>
+                © 2021 Copyright. Nucces. All Rights Reserved.
+            </p>
+            <img src="images/Phone.jpg">
+            <img src="images/email.jpg">
+            <img src="images/facebook.jpg">
+        </div>
+
+        
+    </footer>
+
+
+    <script src="script/main.js"></script> 
+    <script src="script/galerie.js"></script>
+    <script src="script/navBarBurger.js"></script>
+    <script src="https://kit.fontawesome.com/5f5a6f8a67.js" crossorigin="anonymous"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBRjYvPuzkMe2kQadGkJ3v94BoOOZxxAHk&callback=initMap" async></script>
+    
+</body>
+</html>

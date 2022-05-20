@@ -1,0 +1,506 @@
+/* PC */
+/* Zona 1 */
+.containerIMG{
+    position: relative;
+    max-width: 1250px;
+    max-height: 500px;
+    margin: 0 auto;
+}
+
+.containerIMG img{
+    width: 100%;
+    height: 500px;  
+    border-radius: 0px 0px 20px 20px;
+}
+
+.containerIMG .content{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 500px;
+    background-color: black;
+    border-radius: 0px 0px 20px 20px;
+    box-shadow: 5px 5px 5px grey;
+    background: rgb(0, 0, 0); 
+    background: rgba(0, 0, 0, 0.3);
+    color: #f1f1f1;
+}
+
+.text-content{
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 150px;
+    margin-left: 20px;
+    font-size: 64px;
+    font-weight: bold;
+}
+
+.button-grid{
+    margin-left: 25px;
+    display: grid;
+    width: 360px;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-welcome{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 52px;
+    background-color: #004D4F;
+    border-radius: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+    color: #ffffff;
+    border: #004D4F;
+}
+
+.button-welcome:hover{
+    box-shadow: 5px 5px 5px black;
+    background-color: #FBDDB4;
+    color: #5C523C;
+}
+
+/* ************************************************* */
+
+/* Zona 2 */
+.container{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1250px;
+}
+
+.grid-text-2{
+    display: grid;
+    grid-template-columns: 615px 615px;
+    grid-column-gap: 10px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1250px;
+}
+
+.zona-verde{
+    background-color: #004D4F;
+    width: 615px;
+}
+
+.button-info{
+    width: 102px;
+    height: 50px;
+    border-radius: 20px;
+    border: #004D4F;
+    background-color: #004D4F;
+    color: #ffffff;
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.button-info-2{
+    width: 102px;
+    height: 50px;
+    border-radius: 20px;
+    border: #FBDDB4;
+    background-color: #FBDDB4;
+    color: #5C523C;
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.button-info:hover{
+    box-shadow: 5px 5px 5px black;
+    background-color: #FBDDB4;
+    color: #5C523C;
+    font-weight: bold;
+}
+
+.button-info-2:hover{
+    box-shadow: 5px 5px 5px black;
+    background-color: #B09B76;
+    color: #ffffff;
+    font-weight: bold;
+}
+/* ************************************************* */
+
+/* Zona 3 */
+.grid-4{
+    display: grid;
+    grid-template-columns: 310px 310px 310px 310px;
+    grid-column-gap: 10px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.box-produse{
+    width: 300px;
+    height: 400px;
+    background-color: #004D4F;
+}
+
+.box-produse:hover{
+    box-shadow: 10px 10px 10px gray;
+}
+
+.container-produs-img{
+    width: 300px;
+    height: 300px;
+}
+
+.produse-populare{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    margin-top: 70px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.produse-populare img{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.link-produs{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    border: #B09B76;
+    background-color: #B09B76;
+    bottom: 0;
+    top: 85%;
+    left: 85%;
+}
+
+.link-produs:hover{
+    border: #5C523C;
+    border-radius: 50px;
+    background-color: #5C523C;
+    box-shadow: 5px 5px 5px;
+}
+/* ******************************************* */
+
+
+/* Laptop mic */
+@media (min-width: 769px) and (max-width: 1024px){
+    /* Zona 1 */
+    .containerIMG{
+        max-width: 962px;
+        max-height: 400px;
+    }
+    
+    .containerIMG img{
+        width: 100%;
+        height: 400px;  
+    }
+    
+    .containerIMG .content{
+        width: 962px;
+        height: 400px;
+    }
+
+    .text-content{
+        font-size: 54px;
+        font-weight: bolder;
+    }
+    
+    .button-grid{
+        width: 290px;
+    }
+    
+    .button-welcome{
+        width: 100px;
+        height: 32px;
+        font-size: 15px;
+    }
+    /* ****************************************** */
+    
+    /* Zona 2 */
+
+    .container{
+        width: 962px;
+    }
+    
+    .grid-text-2{
+        grid-template-columns: 470px 470px;
+        grid-column-gap: 10px;
+        width: 962px;
+    }
+    
+    .zona-verde{
+        background-color: #004D4F;
+        width: 470px;
+    }
+    
+    .button-info{
+        width: 90px;
+        height: 40px;
+        font-weight: 600;
+        font-size: 15px;
+    }
+    
+    .button-info-2{
+        width: 90px;
+        height: 40px;
+        font-size: 15px;
+    }
+    /* ***************************************************** */
+
+    /* Zona 3 */
+
+    .grid-4{
+        grid-template-columns: 210px 210px 210px 210px;
+    }
+    
+    .box-produse{
+        width: 200px;
+        height: 300px;
+    }
+    
+    .container-produs-img{
+        width: 300px;
+        height: 300px;
+    }
+    
+    .produse-populare{
+        width: 100px;
+        height: 100px;
+        margin-top: 70px;
+    }
+    
+    .produse-populare img{
+        width: 100px;
+        height: 100px;
+    }
+    
+    .link-produs{
+        width: 40px;
+        height: 40px;
+        top: 80%;
+        left: 80%;
+    }
+
+    /* ***************************************************** */
+}
+
+/* Tableta */
+@media (min-width: 601px) and (max-width: 768px){
+    
+    /* Zona 1 */
+    .containerIMG{
+        max-width: 578px;
+        max-height: 300px;
+    }
+
+    .containerIMG img{
+        width: 100%;
+        height: 300px;  
+    }
+
+    .containerIMG .content{
+        width: 100%;
+        height: 300px;
+    }
+
+    .text-content{
+        margin-top: 80px;
+        margin-left: 150px;
+        font-size: 44px;
+        font-weight: bold;
+    }
+
+    .button-grid{
+        margin-left: 150px;
+        display: grid;
+        width: 250px;
+    }
+
+    .button-welcome{
+        width: 100px;
+        height: 35px;
+        font-size: 15px;
+    }
+    /* ************************************************* */
+
+    /* Zona 2 */
+    .container{
+        width: 578px;
+    }
+
+    .grid-text-2{
+        display: grid;
+        grid-template-columns: 289px 289px;
+        grid-column-gap: 5px;
+        width: 578px;
+    }
+
+    .zona-verde{
+        width: 279px;
+    }
+
+    .button-info{
+        width: 70px;
+        height: 25px;
+        font-size: 10px;
+    }
+
+    .button-info-2{
+        width: 70px;
+        height: 25px;
+        font-size: 10px;
+    }
+    /* ************************************************* */
+
+    /* Zona 3 */
+    .grid-4{
+        grid-template-columns: 130px 130px 130px 130px;
+        grid-column-gap: 5px;
+    }
+
+    .box-produse{
+        width: 120px;
+        height: 220px;
+        background-color: #004D4F;
+    }
+
+    .container-produs-img{
+        width: 80px;
+        height: 80px;
+    }
+
+    .produse-populare{
+        width: 80px;
+        height: 80px;
+        margin-top: 40px;
+    }
+
+    .produse-populare img{
+        width: 80px;
+        height: 80px;
+        border-radius: 10px;
+    }
+
+    .link-produs{
+        width: 25px;
+        height: 25px;
+        top: 80%;
+        left: 80%;
+    }
+    /* ******************************************* */
+}
+
+/* Telefon */
+@media screen and (max-width: 600px){
+    /* Zona 1 */
+    .containerIMG{
+        max-width: 375px;
+        max-height: 250px;
+    }
+
+    .containerIMG img{
+        width: 100%;
+        height: 250px;  
+        border-radius: 0px 0px 20px 20px;
+    }
+
+    .containerIMG .content{
+        width: 375px;
+        height: 250px;
+    }
+
+    .text-content{
+        margin-top: 75px;
+        margin-left: 70px;
+        font-size: 34px;
+    }
+
+    .button-grid{
+        width: 330px;
+    }
+
+    .button-welcome{
+        width: 80px;
+        height: 25px;
+        font-size: 10px;
+    }
+    /* ************************************************* */
+
+    /* Zona 2 */
+    .container{
+        width: 375px;
+    }
+
+    .grid-text-2{
+        grid-template-columns: 375px;
+        width: 375px;
+    }
+
+    .zona-verde{
+        background-color: #004D4F;
+        width: 375px;
+        margin-top: 20px;
+    }
+
+    .button-info{
+        width: 70px;
+        height: 25px;
+        font-size: 10px;
+    }
+
+    .button-info-2{
+        width: 70px;
+        height: 25px;
+        font-size: 10px;
+    }
+    /* ************************************************* */
+
+        
+    /* Zona 3 */
+    .grid-4{
+        grid-template-columns: 120px 120px;
+    }
+
+    .box-produse{
+        width: 120px;
+        height: 220px;
+        margin-top: 20px;
+    }
+
+    .container-produs-img{
+        width: 120px;
+        height: 220px;
+    }
+
+    .produse-populare{
+        width: 80px;
+        height: 80px;
+        display: flex;
+        margin-top: 40px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .produse-populare img{
+        width: 80px;
+        height: 80px;
+        border-radius: 10px;
+    }
+
+    .link-produs{
+        width: 25px;
+        height: 25px;
+        top: 80%;
+        left: 80%;
+    }
+    /* ******************************************* */
+}

@@ -1,0 +1,154 @@
+.mini-menu{
+    display: flex;
+    max-width: 1250px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.center{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.grid-2-info{
+    display: grid;
+    grid-template-columns: 420px 550px;
+    grid-column-gap: 200px;
+}
+
+.containerAnunt{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1250px;
+    /* background-color: aqua; */
+}
+
+.zona-img{
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.zona-img img{
+    width: 400px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.button-info-suplimentar{
+    width: 400px;
+    height: 70px;
+    border-radius: 20px 20px 0px 0px;
+    border: 0px;
+    background-color: #C8C8C8;
+    text-transform: uppercase;
+}
+
+#descriereBT2{
+    margin-left: 10px;
+}
+
+/* Laptop */
+@media (min-width: 769px) and (max-width: 1024px){
+    .mini-menu{
+        max-width: 962px;
+    }
+    
+    .grid-2-info{
+        grid-template-columns: 360px 550px;
+        grid-column-gap: 50px;
+    }
+    
+    .containerAnunt{
+        max-width: 970px;
+    }
+    
+    .zona-img img{
+        width: 350px;
+        height: 350px;
+    }
+
+    .button-info-suplimentar{
+        width: 300px;
+        height: 60px;
+    }
+}
+
+/* Tableta */
+@media (min-width: 601px) and (max-width: 768px){
+    
+    .mini-menu{
+        max-width: 578px;
+    }
+    
+    .grid-2-info{
+        display: block;
+    }
+    
+    .containerAnunt{
+        max-width: 578px;
+    }
+    
+    .zona-img{
+        margin-top: 0px;
+        margin-bottom: 20px;
+    }
+    
+    .zona-img img{
+        width: 510px;
+        height: 490px;
+    }
+    
+    .button-info-suplimentar{
+        width: 200px;
+        height: 60px;
+    }
+    
+    #descriereBT2{
+        margin-left: 10px;
+    }
+}
+
+/* Telefon */
+@media screen and (max-width: 600px){
+
+    .mini-menu{
+        max-width: 375px;
+    }
+    
+    .grid-2-info{
+        display: block;
+        grid-template-columns: 375px;
+        grid-column-gap: 0px;
+    }
+    
+    .containerAnunt{
+        max-width: 375px;
+    }
+    
+    .zona-img img{
+        width: 340px;
+        height: 300px;
+        margin-bottom: 20px;
+        margin-top: 0px;
+    }
+    
+    .button-info-suplimentar{
+        width: 100px;
+        height: 50px;
+        border-radius: 10px 10px 0px 0px;
+        background-color: #C8C8C8;
+        text-transform: uppercase;
+    }
+    
+    #descriereBT2{
+        margin-left: 10px;
+    }
+    
+
+}
